@@ -1593,7 +1593,44 @@ LaTeX Font Warning: Font shape `T2A/phv/m/it' undefined
 
 [2
 
-] [3
+]
+! Extra alignment tab has been changed to \cr.
+<template> ...l \lineht@ \dp \z@ \fi \endtemplate 
+                                                  
+l.106     \end{frame}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> ...l \lineht@ \dp \z@ \fi \endtemplate 
+                                                  
+l.106     \end{frame}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endmultline@math \hfil }\endtemplate 
+                                                 
+l.106     \end{frame}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> \endmultline@math \hfil }\endtemplate 
+                                                 
+l.106     \end{frame}
+                     
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[3
 
 ]
 \tf@nav=\write7
@@ -1634,7 +1671,7 @@ m10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm050
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
 
-Output written on pdf/slides.pdf (3 pages, 119648 bytes).
+Output written on pdf/slides.pdf (3 pages, 119650 bytes).
 PDF statistics:
  157 PDF objects out of 1000 (max. 8388607)
  127 compressed objects within 2 object streams
