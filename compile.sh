@@ -25,4 +25,4 @@ else
 fi
 
 # open
-open $FILENAME.pdf
+open pdf/$FILENAME.pdf
