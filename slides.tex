@@ -65,8 +65,9 @@
             decoration={snake, amplitude=6mm, segment length=4mm}
             % Ось времени
             \fill[black] (0,0) circle (2pt); % Жирная точка в нуле
-        \draw[->] (0,0) -- (10,0) node[right] {Time}; % Линия оси времени
-    
+            \draw[->] (0,0) -- (10,0) node[right] {Time}; % Линия оси времени
+            \draw (0,0.000001) -- (0,-0.000001) node[below] {0};
+
             % Отметки на оси времени
             
             \foreach \x in {2, 4, 6, 8} {
@@ -83,6 +84,10 @@
             \node[above] at (3.5,1) {CF$_2$};
             \node[above] at (7,1) {CF$_3$};
         \end{tikzpicture}
+    \end{frame}
+
+    \begin{frame}
+
     \end{frame}
 
 \end{document}
