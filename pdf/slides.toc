@@ -1,2 +1,2 @@
 \beamer@sectionintoc {1}{Что такое дериватив?}{2}{0}{1}
-\beamer@sectionintoc {2}{Возможные подходы}{3}{0}{2}
+\beamer@sectionintoc {2}{Подход с линеаризацией}{3}{0}{2}
