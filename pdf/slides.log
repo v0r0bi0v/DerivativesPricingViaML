@@ -1604,7 +1604,7 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 Here is how much of TeX's memory you used:
  38552 strings out of 474116
  866304 string characters out of 5743682
- 1939187 words of memory out of 5000000
+ 1938187 words of memory out of 5000000
  60199 multiletter control sequences out of 15000+600000
  566325 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1613,7 +1613,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></
 usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on pdf/slides.pdf (2 pages, 75614 bytes).
+Output written on pdf/slides.pdf (2 pages, 75575 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
