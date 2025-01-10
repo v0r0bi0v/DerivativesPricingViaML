@@ -21,6 +21,8 @@
     \usecolortheme{sidebartab}
 }
 
+\newtheoremstyle{mytheoremstyle}{\topsep}{\topsep}{\itshape}{}{\bfseries}{.}{ }{}
+\theoremstyle{mytheoremstyle}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{lemma}{Lemma}[section]
 \newtheorem{proposition}{Proposition}[section]
@@ -28,8 +30,6 @@
 \newtheorem{definition}{Definition}[section]
 \newtheorem{remark}{Remark}[section]
 \newtheorem{example}{Example}[section]
-
-\setbeamercolor{theorem}{fg=white}
 
 \newcommand{\E}{\ensuremath{\mathbb{E}}}
 \newcommand{\D}{\ensuremath{\mathbb{D}}}
@@ -51,7 +51,7 @@
 
 \begin{document}
     \title[NN-based pricing]{Прайсинг деривативов с помощью ML}
-    \author{Vanya Vorobiov}
+    \author{УРМ}
     \date{\today}
     \institute{Sber}
 

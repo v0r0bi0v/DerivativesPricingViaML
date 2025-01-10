@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.20)  10 JAN 2025 19:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.20)  10 JAN 2025 19:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1315,7 +1315,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \newtheorem{theorem}
+l.26 \newtheorem{theorem}
                          {Theorem}[section]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1328,7 +1328,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \newtheorem{theorem}{T
+l.26 \newtheorem{theorem}{T
                            heorem}[section]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1341,7 +1341,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 \newtheorem{lemma}
+l.27 \newtheorem{lemma}
                        {Lemma}[section]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1356,7 +1356,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \newtheorem{corollary}
+l.29 \newtheorem{corollary}
                            {Corollary}[section]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1370,7 +1370,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \newtheorem{definition}
+l.30 \newtheorem{definition}
                             {Definition}[section]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1385,7 +1385,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 \newtheorem{example}
+l.32 \newtheorem{example}
                          {Example}[section]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1670,7 +1670,7 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  38316 strings out of 474116
- 856664 string characters out of 5743682
+ 856661 string characters out of 5743682
  1938187 words of memory out of 5000000
  59978 multiletter control sequences out of 15000+600000
  566325 words of font info for 54 fonts, out of 8000000 for 9000
@@ -1680,7 +1680,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></
 usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on pdf/slides.pdf (2 pages, 83199 bytes).
+Output written on pdf/slides.pdf (2 pages, 77721 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
