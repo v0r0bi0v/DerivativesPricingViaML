@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.20)  11 JAN 2025 02:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.20)  11 JAN 2025 02:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1593,7 +1593,35 @@ LaTeX Font Warning: Font shape `T2A/phv/m/it' undefined
 
 [2
 
-] [3
+]
+
+! LaTeX Error: Environment remark undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115     \end{frame}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{beamer@framepauses} on input line 115 ended by \end{remar
+k}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115     \end{frame}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[3
 
 ]
 \tf@nav=\write7
@@ -1618,10 +1646,10 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: 06305B1259E8F9910D69004C7969C414;419.
  ) 
 Here is how much of TeX's memory you used:
- 38603 strings out of 474116
- 867600 string characters out of 5743682
+ 38606 strings out of 474116
+ 867665 string characters out of 5743682
  1941187 words of memory out of 5000000
- 60247 multiletter control sequences out of 15000+600000
+ 60250 multiletter control sequences out of 15000+600000
  566325 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,1604b,676s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1635,7 +1663,7 @@ b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pf
 b></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on pdf/slides.pdf (3 pages, 135714 bytes).
+Output written on pdf/slides.pdf (3 pages, 136262 bytes).
 PDF statistics:
  165 PDF objects out of 1000 (max. 8388607)
  133 compressed objects within 2 object streams
