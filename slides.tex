@@ -64,13 +64,13 @@
         \begin{tikzpicture}[scale=0.9]  % Масштабирование всей картинки
             decoration={snake, amplitude=6mm, segment length=4mm}
             % Ось времени
-            \fill[black] (0,0) circle (0.2); % Жирная точка в нуле
+            \fill[black] (0,0) circle (0.1); % Жирная точка в нуле
             \draw[->] (0,0) -- (10,0) node[right] node[below] {Time}; % Линия оси времени
 
             % Отметки на оси времени
             
             \foreach \x in {0, 2, 4, 6, 8} {
-                \draw (\x,0.2) -- (\x,-0.2) node[below] {\x};
+                \draw (\x,0.1) -- (\x,-0.1) node[below] {\x};
             }
             
             % Волнистые стрелки
