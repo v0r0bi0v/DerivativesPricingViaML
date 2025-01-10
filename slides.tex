@@ -100,9 +100,14 @@
 
         Можно попробовать сделать 2 модели:
         \begin{align*}
-            & Loans \to \mathcal{L} = \R^n \\
-            & Markets \to \mathcal{M} = \R^n
+            & \phi: Markets \to \mathcal{M} = \R^n \\
+            & \psi: Derivatives \to \mathcal{L} = \R^n
         \end{align*}
+        Оптимизируем модели 
+        \[
+            \left( \phi(m) \cdot \psi^T(l) - price(m, l) \right)
+        \]
+
     \end{frame}
 
 \end{document}
