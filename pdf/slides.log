@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.20)  10 JAN 2025 19:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.3.20)  10 JAN 2025 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1266,13 +1266,32 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 )
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen342
+\pgfdecoratedremainingdistance=\dimen343
+\pgfdecoratedinputsegmentcompleteddistance=\dimen344
+\pgfdecoratedinputsegmentremainingdistance=\dimen345
+\pgf@decorate@distancetomove=\dimen346
+\pgf@decorate@repeatstate=\count385
+\pgfdecorationsegmentamplitude=\dimen347
+\pgfdecorationsegmentlength=\dimen348
+)
+\tikz@lib@dec@box=\box108
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
 (/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamerthemeMarburg.sty
 (/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamercolorthemewhale.sty)
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamerouterthemesidebar.st
 y
-\beamer@sidebarwidth=\dimen342
-\beamer@headheight=\dimen343
+\beamer@sidebarwidth=\dimen349
+\beamer@headheight=\dimen350
 LaTeX Font Info:    Trying to load font information for T2A+phv on input line 2
 1.
 LaTeX Font Info:    No file T2Aphv.fd. on input line 21.
@@ -1296,7 +1315,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 \newtheorem{theorem}
+l.24 \newtheorem{theorem}
                          {Theorem}[section]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1309,7 +1328,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 \newtheorem{theorem}{T
+l.24 \newtheorem{theorem}{T
                            heorem}[section]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1322,13 +1341,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \newtheorem{lemma}
+l.25 \newtheorem{lemma}
                        {Lemma}[section]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-\c@proposition=\count385
+\c@proposition=\count386
 
 ! LaTeX Error: Command \corollary already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1337,7 +1356,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 \newtheorem{corollary}
+l.27 \newtheorem{corollary}
                            {Corollary}[section]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1351,13 +1370,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \newtheorem{definition}
+l.28 \newtheorem{definition}
                             {Definition}[section]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-\c@remark=\count386
+\c@remark=\count387
 
 ! LaTeX Error: Command \example already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1366,7 +1385,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 \newtheorem{example}
+l.30 \newtheorem{example}
                          {Example}[section]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1380,7 +1399,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \newcommand{\C}{\ensuremath{\mathbb{C}}}
+l.36 \newcommand{\C}{\ensuremath{\mathbb{C}}}
                                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1389,26 +1408,26 @@ or  <return>  to continue without it.
 (pdf/slides.aux)
 \openout1 = `slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1446,16 +1465,16 @@ LaTeX Font Info:    ... okay on input line 49.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count387
-\scratchdimen=\dimen344
-\scratchbox=\box108
-\nofMPsegments=\count388
-\nofMParguments=\count389
+\scratchcounter=\count388
+\scratchdimen=\dimen351
+\scratchbox=\box109
+\nofMPsegments=\count389
+\nofMParguments=\count390
 \everyMPshowfont=\toks69
-\MPscratchCnt=\count390
-\MPscratchDim=\dimen345
-\MPnumerator=\count391
-\makeMPintoPDFobject=\count392
+\MPscratchCnt=\count391
+\MPscratchDim=\dimen352
+\MPnumerator=\count392
+\makeMPintoPDFobject=\count393
 \everyMPtoPDFconversion=\toks70
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1466,54 +1485,54 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 52.
 
 (pdf/slides.out) (pdf/slides.out)
 \@outlinefile=\write6
 \openout6 = `slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 49.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 52.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 49.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 52.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/ptm/m/n on input line 49.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 49.
+(Font)                  OT1/cmss/m/n --> T2A/ptm/m/n on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T2A/phv/b/n on input line 49.
+(Font)                  OT1/cmr/bx/n --> T2A/phv/b/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T2A/phv/b/n on input line 49.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 49.
+(Font)                  OT1/cmr/bx/n --> T2A/phv/b/n on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/phv/m/n on input line 49.
+(Font)                  OT1/cmss/m/n --> T2A/phv/m/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/phv/m/n on input line 49.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 49.
+(Font)                  OT1/cmss/bx/n --> T2A/phv/m/n on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T2A/phv/m/it on input line 49.
+(Font)                  OT1/cmr/m/it --> T2A/phv/m/it on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T2A/phv/m/it on input line 49.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 49.
+(Font)                  OT1/cmr/bx/it --> T2A/phv/m/it on input line 52.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T2A/pcr/m/n on input line 49.
+(Font)                  OT1/cmtt/m/n --> T2A/pcr/m/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T2A/pcr/m/n on input line 49.
+(Font)                  OT1/cmtt/m/n --> T2A/pcr/m/n on input line 52.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T2A/phv/m/n --> T2A/phv/b/n on input line 49.
+(Font)                  T2A/phv/m/n --> T2A/phv/b/n on input line 52.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/phv/m/it --> T2A/phv/b/it on input line 49.
+(Font)                  T2A/phv/m/it --> T2A/phv/b/it on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T2A/ptm/b/n on input line 49.
+(Font)                  OT1/cmss/b/n --> T2A/ptm/b/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T2A/phv/b/n --> T2A/phv/b/n on input line 49.
+(Font)                  T2A/phv/b/n --> T2A/phv/b/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T2A/phv/m/n --> T2A/phv/b/n on input line 49.
+(Font)                  T2A/phv/m/n --> T2A/phv/b/n on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T2A/phv/m/it --> T2A/phv/b/it on input line 49.
+(Font)                  T2A/phv/m/it --> T2A/phv/b/it on input line 52.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T2A/pcr/m/n --> T2A/pcr/b/n on input line 49.
+(Font)                  T2A/pcr/m/n --> T2A/pcr/b/n on input line 52.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1554,57 +1573,25 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 (pdf/slides.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 51.
+(hyperref)                setting the option has no effect on input line 54.
 
 
 Overfull \vbox (25.49939pt too high) has occurred while \output is active []
 
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57     \end{frame}
-                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
-
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
-
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Font Warning: Font shape `T2A/phv/m/it' undefined
-(Font)              using `T2A/phv/m/n' instead on input line 57.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.57     \end{frame}
-                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
 
 ]
 
-! Package tikz Error: You need to load a decoration library.
+! Package pgfkeys Error: I do not know the key '/pgf/decoration/.expanded' and 
+I am going to ignore it. Perhaps you misspelled it.
 
-See the tikz package documentation for explanation.
+See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80     \end{frame}
+l.83     \end{frame}
                     
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -1612,86 +1599,50 @@ Pretend that you're Hercule Poirot: Examine all clues,
 and deduce the truth by order and method.
 
 
-! Package pgfkeys Error: I do not know the key '/tikz/decoration', to which you
- passed 'snake, amplitude=0.5mm, segment length=2mm', and I am going to ignore 
-it. Perhaps you misspelled it.
+! Package pgfkeys Error: I do not know the key '/pgf/decoration/.expanded' and 
+I am going to ignore it. Perhaps you misspelled it.
 
 See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80     \end{frame}
+l.83     \end{frame}
                     
 (That was another \errmessage.)
 
 
-! Package tikz Error: You need to load a decoration library.
-
-See the tikz package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80     \end{frame}
-                    
-(That was another \errmessage.)
-
-
-! Package pgfkeys Error: I do not know the key '/tikz/decoration', to which you
- passed 'snake, amplitude=0.5mm, segment length=2mm', and I am going to ignore 
-it. Perhaps you misspelled it.
+! Package pgfkeys Error: I do not know the key '/pgf/decoration/.expanded' and 
+I am going to ignore it. Perhaps you misspelled it.
 
 See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80     \end{frame}
+l.83     \end{frame}
                     
 (That was another \errmessage.)
 
-
-! Package tikz Error: You need to load a decoration library.
-
-See the tikz package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80     \end{frame}
-                    
-(That was another \errmessage.)
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
 
 
-! Package pgfkeys Error: I do not know the key '/tikz/decoration', to which you
- passed 'snake, amplitude=0.5mm, segment length=2mm', and I am going to ignore 
-it. Perhaps you misspelled it.
-
-See the pgfkeys package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80     \end{frame}
-                    
-(That was another \errmessage.)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
 
 
-Overfull \hbox (63.97957pt too wide) in paragraph at lines 80--80
+(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Font Warning: Font shape `T2A/phv/m/it' undefined
+(Font)              using `T2A/phv/m/n' instead on input line 83.
+
+
+Overfull \hbox (63.97957pt too wide) in paragraph at lines 83--83
 [][]  
  []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.80     \end{frame}
-                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.80     \end{frame}
-                    
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 [2
 
@@ -1718,18 +1669,18 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: 80695D16DD457382753D85E0E631C2D8;200.
  ) 
 Here is how much of TeX's memory you used:
- 37855 strings out of 474116
- 840879 string characters out of 5743682
+ 38316 strings out of 474116
+ 856664 string characters out of 5743682
  1938187 words of memory out of 5000000
- 59529 multiletter control sequences out of 15000+600000
+ 59978 multiletter control sequences out of 15000+600000
  566325 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,123p,1604b,645s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,123p,1604b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></
 usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on pdf/slides.pdf (2 pages, 79412 bytes).
+Output written on pdf/slides.pdf (2 pages, 83199 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream

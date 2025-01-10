@@ -14,6 +14,7 @@
 \usepackage{adjustbox}
 \usepackage{times}
 \usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing}  % Подключение библиотеки для декораций
 
 \mode<presentation>{
     \usetheme{Marburg}
@@ -27,6 +28,8 @@
 \newtheorem{definition}{Definition}[section]
 \newtheorem{remark}{Remark}[section]
 \newtheorem{example}{Example}[section]
+
+\setbeamercolor{theorem}{fg=white}
 
 \newcommand{\E}{\ensuremath{\mathbb{E}}}
 \newcommand{\D}{\ensuremath{\mathbb{D}}}
@@ -47,7 +50,7 @@
 \renewcommand{\ge}{\geqslant}
 
 \begin{document}
-    \title[TITLE_SHORT]{TITLE}
+    \title[NN-based pricing]{Прайсинг деривативов с помощью ML}
     \author{Vanya Vorobiov}
     \date{\today}
     \institute{Sber}
@@ -68,9 +71,9 @@
             }
             
             % Волнистые стрелки (кэшфлоу)
-            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=2mm},->,thick,blue] (1,0) -- (1,1.5);
-            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=2mm},->,thick,blue] (3.5,0) -- (3.5,2);
-            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=2mm},->,thick,blue] (7,0) -- (7,1);
+            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=3mm},->,thick,blue] (1,0) -- (1,1.5);
+            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=3mm},->,thick,blue] (3.5,0) -- (3.5,2);
+            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=3mm},->,thick,blue] (7,0) -- (7,1);
             
             % Подписи для кэшфлоу
             \node[above] at (1,1.5) {CF$_1$};
