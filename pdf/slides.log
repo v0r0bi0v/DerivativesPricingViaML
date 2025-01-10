@@ -1593,44 +1593,7 @@ LaTeX Font Warning: Font shape `T2A/phv/m/it' undefined
 
 [2
 
-]
-! Extra alignment tab has been changed to \cr.
-<template> ...l \lineht@ \dp \z@ \fi \endtemplate 
-                                                  
-l.106     \end{frame}
-                     
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<template> ...l \lineht@ \dp \z@ \fi \endtemplate 
-                                                  
-l.106     \end{frame}
-                     
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<template> \endmultline@math \hfil }\endtemplate 
-                                                 
-l.106     \end{frame}
-                     
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<template> \endmultline@math \hfil }\endtemplate 
-                                                 
-l.106     \end{frame}
-                     
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-[3
+] [3
 
 ]
 \tf@nav=\write7
@@ -1656,7 +1619,7 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  38601 strings out of 474116
- 867544 string characters out of 5743682
+ 867538 string characters out of 5743682
  1941187 words of memory out of 5000000
  60245 multiletter control sequences out of 15000+600000
  566325 words of font info for 54 fonts, out of 8000000 for 9000
