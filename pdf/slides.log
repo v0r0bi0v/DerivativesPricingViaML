@@ -1308,6 +1308,90 @@ LaTeX Font Warning: Font shape `T2A/phv/m/n' undefined
 (/usr/local/texlive/2024/texmf-dist/tex/latex/beamer/beamercolorthemesidebartab
 .sty)
 
+! LaTeX Error: Command \theorem already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \newtheorem{theorem}
+                         {Theorem}[section]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \newtheorem{theorem}{T
+                           heorem}[section]
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \lemma already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \newtheorem{lemma}
+                       {Lemma}[section]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\c@proposition=\count386
+
+! LaTeX Error: Command \corollary already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \newtheorem{corollary}
+                           {Corollary}[section]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \definition already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 \newtheorem{definition}
+                            {Definition}[section]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+\c@remark=\count387
+
+! LaTeX Error: Command \example already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \newtheorem{example}
+                         {Example}[section]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 ! LaTeX Error: Command \C already defined.
                Or name \end... illegal, see p.192 of the manual.
 
@@ -1315,7 +1399,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 \newcommand{\C}{\ensuremath{\mathbb{C}}}
+l.39 \newcommand{\C}{\ensuremath{\mathbb{C}}}
                                              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1324,26 +1408,26 @@ or  <return>  to continue without it.
 (pdf/slides.aux)
 \openout1 = `slides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 50.
-LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1381,16 +1465,16 @@ LaTeX Font Info:    ... okay on input line 50.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count386
+\scratchcounter=\count388
 \scratchdimen=\dimen351
 \scratchbox=\box109
-\nofMPsegments=\count387
-\nofMParguments=\count388
+\nofMPsegments=\count389
+\nofMParguments=\count390
 \everyMPshowfont=\toks69
-\MPscratchCnt=\count389
+\MPscratchCnt=\count391
 \MPscratchDim=\dimen352
-\MPnumerator=\count390
-\makeMPintoPDFobject=\count391
+\MPnumerator=\count392
+\makeMPintoPDFobject=\count393
 \everyMPtoPDFconversion=\toks70
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1401,54 +1485,54 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 50.
+Package hyperref Info: Link coloring OFF on input line 55.
 
 (pdf/slides.out) (pdf/slides.out)
 \@outlinefile=\write6
 \openout6 = `slides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 50.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 50.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 55.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/ptm/m/n on input line 50.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 50.
+(Font)                  OT1/cmss/m/n --> T2A/ptm/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T2A/phv/b/n on input line 50.
+(Font)                  OT1/cmr/bx/n --> T2A/phv/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T2A/phv/b/n on input line 50.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 50.
+(Font)                  OT1/cmr/bx/n --> T2A/phv/b/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T2A/phv/m/n on input line 50.
+(Font)                  OT1/cmss/m/n --> T2A/phv/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T2A/phv/m/n on input line 50.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 50.
+(Font)                  OT1/cmss/bx/n --> T2A/phv/m/n on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T2A/phv/m/it on input line 50.
+(Font)                  OT1/cmr/m/it --> T2A/phv/m/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T2A/phv/m/it on input line 50.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+(Font)                  OT1/cmr/bx/it --> T2A/phv/m/it on input line 55.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T2A/pcr/m/n on input line 50.
+(Font)                  OT1/cmtt/m/n --> T2A/pcr/m/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T2A/pcr/m/n on input line 50.
+(Font)                  OT1/cmtt/m/n --> T2A/pcr/m/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T2A/phv/m/n --> T2A/phv/b/n on input line 50.
+(Font)                  T2A/phv/m/n --> T2A/phv/b/n on input line 55.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T2A/phv/m/it --> T2A/phv/b/it on input line 50.
+(Font)                  T2A/phv/m/it --> T2A/phv/b/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T2A/ptm/b/n on input line 50.
+(Font)                  OT1/cmss/b/n --> T2A/ptm/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T2A/phv/b/n --> T2A/phv/b/n on input line 50.
+(Font)                  T2A/phv/b/n --> T2A/phv/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T2A/phv/m/n --> T2A/phv/b/n on input line 50.
+(Font)                  T2A/phv/m/n --> T2A/phv/b/n on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T2A/phv/m/it --> T2A/phv/b/it on input line 50.
+(Font)                  T2A/phv/m/it --> T2A/phv/b/it on input line 55.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T2A/pcr/m/n --> T2A/pcr/b/n on input line 50.
+(Font)                  T2A/pcr/m/n --> T2A/pcr/b/n on input line 55.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1489,7 +1573,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 (pdf/slides.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 52.
+(hyperref)                setting the option has no effect on input line 57.
+
+
+Overfull \vbox (25.49939pt too high) has occurred while \output is active []
+
 
 [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/l
 ocal/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
@@ -1503,7 +1591,7 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81     \end{frame}
+l.86     \end{frame}
                     
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -1518,7 +1606,7 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81     \end{frame}
+l.86     \end{frame}
                     
 (That was another \errmessage.)
 
@@ -1530,18 +1618,18 @@ See the pgfkeys package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81     \end{frame}
+l.86     \end{frame}
                     
 (That was another \errmessage.)
 
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
 
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1549,10 +1637,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `T2A/phv/m/it' undefined
-(Font)              using `T2A/phv/m/n' instead on input line 81.
+(Font)              using `T2A/phv/m/n' instead on input line 86.
 
 
-Overfull \hbox (63.97957pt too wide) in paragraph at lines 81--81
+Overfull \hbox (63.97957pt too wide) in paragraph at lines 86--86
 [][]  
  []
 
@@ -1581,10 +1669,10 @@ Package rerunfilecheck Info: File `slides.out' has not changed.
 (rerunfilecheck)             Checksum: 80695D16DD457382753D85E0E631C2D8;200.
  ) 
 Here is how much of TeX's memory you used:
- 38301 strings out of 474116
- 856483 string characters out of 5743682
+ 38316 strings out of 474116
+ 856664 string characters out of 5743682
  1938187 words of memory out of 5000000
- 59963 multiletter control sequences out of 15000+600000
+ 59978 multiletter control sequences out of 15000+600000
  566325 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,1604b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1592,7 +1680,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></
 usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></us
 r/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on pdf/slides.pdf (2 pages, 75280 bytes).
+Output written on pdf/slides.pdf (2 pages, 77721 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
