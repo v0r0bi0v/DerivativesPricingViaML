@@ -78,8 +78,8 @@
             
             % Волнистые стрелки
             \draw[decorate,decoration={snake, amplitude=0.3mm, segment length=4mm, post length=0.5mm},->,thick,blue] (1,1) -- (1,0);
-            \draw[decorate,decoration={snake, amplitude=0mm, segment length=3mm, post length=0.5mm},->,thick,blue] (3.5,1) -- (3.5,0);
-            \draw[decorate,decoration={snake, amplitude=0.3mm, segment length=6mm, post length=0.5mm},->,thick,blue] (7,1) -- (7,0);
+            \draw[decorate,decoration={snake, amplitude=0mm, segment length=4mm, post length=0.5mm},->,thick,blue] (3.5,1) -- (3.5,0);
+            \draw[decorate,decoration={snake, amplitude=0.3mm, segment length=4mm, post length=0.5mm},->,thick,blue] (7,1) -- (7,0);
             
             % Подписи для cashflow
             \node[above] at (1,1) {CF$_1$};
@@ -87,11 +87,22 @@
             \node[above] at (7,1) {CF$_3$};
         \end{tikzpicture}
 
-        Кроме того бывает и такое, что одна из сторон может закончить сделку по некоторым условиям в произвольный момент.
+        Кроме того бывает такое, что одна из сторон может закончить сделку по некоторым условиям в произвольный момент.
     \end{frame}
 
-    \begin{frame}
+    \section{Возможные подходы}
+    \begin{frame}{Возможные подходы}
+        Мы можем разделить состояние рынка и сам контракт дериватива:
+        \begin{itemize}
+            \item Состояние рынка ~--- различные форвардные кривые, волатильности etc (легко векторизуется)
+            \item Дериватив ~--- описание сделки, наиболее общо в json формате
+        \end{itemize}
 
+        Можно попробовать сделать 2 модели:
+        \begin{multline*}
+            Loans \to \mathcal{L} = \R^n \\
+            Markets \to \mathcal{M} = \R^n
+        \end{multline*}
     \end{frame}
 
 \end{document}
