@@ -59,7 +59,7 @@
 
     \section{Что такое дериватив?}
     \begin{frame}{Что такое дериватив?}
-        \begin{tikzpicture}[scale=0.7]  % Масштабирование всей картинки
+        \begin{tikzpicture}[scale=0.85]  % Масштабирование всей картинки
             % Ось времени
             \draw[->] (-1,0) -- (10,0) node[right] {Time};
             
@@ -68,15 +68,15 @@
                 \draw (\x,0.2) -- (\x,-0.2) node[below] {\x};
             }
             
-            % Волнистые стрелки (кэшфлоу)
-            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=3mm},->,thick,blue] (1,0) -- (1,1.5);
-            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=3mm},->,thick,blue] (3.5,0) -- (3.5,2);
-            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=3mm},->,thick,blue] (7,0) -- (7,1);
+            % Волнистые стрелки (кэшфлоу) сверху вниз
+            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=2mm},->,thick,blue] (1,0) -- (1,-1.5);
+            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=2mm},->,thick,blue] (3.5,0) -- (3.5,-2);
+            \draw[decorate,decoration={snake, amplitude=0.5mm, segment length=2mm},->,thick,blue] (7,0) -- (7,-1);
             
             % Подписи для кэшфлоу
-            \node[above] at (1,1.5) {CF$_1$};
-            \node[above] at (3.5,2) {CF$_2$};
-            \node[above] at (7,1) {CF$_3$};
+            \node[below] at (1,-1.5) {CF$_1$};
+            \node[below] at (3.5,-2) {CF$_2$};
+            \node[below] at (7,-1) {CF$_3$};
         \end{tikzpicture}
     \end{frame}
 
