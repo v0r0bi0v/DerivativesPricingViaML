@@ -2,14 +2,15 @@
 
 # name of the file
 FILENAME="slides"
+OUTPUT_DIR="pdf"
 
 # compile once
-pdflatex -interaction=nonstopmode -output-directory pdf $FILENAME.tex
+pdflatex -interaction=nonstopmode -output-directory $OUTPUT_DIR $FILENAME.tex
 # biber $FILENAME
 
 # compile twice for correct bibliography
-pdflatex -interaction=nonstopmode -output-directory pdf $FILENAME.tex
-# pdflatex -interaction=nonstopmode -output-directory pdf $FILENAME.tex
+pdflatex -interaction=nonstopmode -output-directory $OUTPUT_DIR $FILENAME.tex
+# pdflatex -interaction=nonstopmode -output-directory $OUTPUT_DIR $FILENAME.tex
 
 # delete log files
 find "$OUTPUT_DIR" -type f -name "$FILENAME.*" ! -name "$FILENAME.pdf" -delete
@@ -25,4 +26,4 @@ else
 fi
 
 # open
-open pdf/$FILENAME.pdf
+open $OUTPUT_DIR/$FILENAME.pdf
