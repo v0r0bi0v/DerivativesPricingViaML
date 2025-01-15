@@ -12,6 +12,9 @@ pdflatex -interaction=nonstopmode -output-directory $OUTPUT_DIR $FILENAME.tex
 pdflatex -interaction=nonstopmode -output-directory $OUTPUT_DIR $FILENAME.tex
 # pdflatex -interaction=nonstopmode -output-directory $OUTPUT_DIR $FILENAME.tex
 
+# open
+open $OUTPUT_DIR/$FILENAME.pdf
+
 # delete log files
 find "$OUTPUT_DIR" -type f -name "$FILENAME.*" ! -name "$FILENAME.pdf" -delete
 
@@ -24,6 +27,3 @@ if [[ $? -eq 0 ]]; then
 else
     echo "Not pushed"
 fi
-
-# open
-open $OUTPUT_DIR/$FILENAME.pdf
