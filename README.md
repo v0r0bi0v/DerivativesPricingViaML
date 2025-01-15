@@ -30,7 +30,7 @@
 **Telegram**: @Genna1248  
 
 **Саша**   
-**Telegram**: @kudryashovalexander  
+**Telegram**: @dolmatovas1  
 
 **Ваня**    
 **Telegram**: @v0r0bi0v
