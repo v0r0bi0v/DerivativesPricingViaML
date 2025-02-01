@@ -1,48 +1,41 @@
-# Прайсинг деривативов с помощью ML  
+# **Pricing Derivatives with ML**  
 
-## **Формулировка задачи**  
-1. Разработать модель, которая будет рассчитывать стоимость деривативов наиболее общего вида.  
-Ключевые аспекты:  
-- Множество случайных cashflow.  
-- Случайные дисконт-факторы.  
-- Возможность досрочного исполнения.  
-2. Исследовать применение Reinforcement Learning
-- Деривативы с возможностью досрочного погашения
-- Учет транзакционных издержек
+## **Problem Statement**  
+1. Develop a model to price derivatives in the most general form.  
+   Key aspects:  
+   - Multiple random cashflows  
+   - Stochastic discount factors  
+   - Early exercise possibility  
+2. Explore the application of Reinforcement Learning:  
+   - Derivatives with early redemption options  
+   - Accounting for transaction costs  
 
-## **Возможные подходы**
-1. Прайсинг дериватива общего вида
-- Активное обучение
-- Линеаризация пространства деривативов и выражение сложного дериватива через простые
-2. Reinforcement Learning
-- Сравнить RL-подход с классическими алгоритмами Монте Карло
-- Разработать агента, который будет хеджировать дериватив с учетом транзакционных издержек
-
-
----
-
-## **Область задачи**  
-Проект находится на пересечении финансовой математики и машинного обучения.
+## **Potential Approaches**  
+1. General derivative pricing:  
+   - Active learning  
+   - Linearizing the derivative space and expressing complex derivatives through simpler ones  
+2. Reinforcement Learning:  
+   - Compare RL-based approaches with classical Monte Carlo algorithms  
+   - Develop an agent to hedge derivatives while considering transaction costs  
 
 ---
 
-## **Состав и компетенции команды**  
-Команда: 4-5 студентов с опытом работы в ML.  
-Компетенции: знание Python, библиотек машинного обучения (PyTorch), базовые представления о финансовой математике.  
+## **Project Scope**  
+The project lies at the intersection of financial mathematics and machine learning.  
 
 ---
 
-## **Перспективы проекта**  
-Модель позволит ускорить и упростить оценку стоимости сложных деривативов, сократить издержки на вычисления и (в идеале) повысить точность расчетов.  
+## **Team Composition & Required Skills**  
+Team: 4–5 students with ML experience.  
+Skills: Proficiency in Python, machine learning libraries (PyTorch), and basic knowledge of financial mathematics.  
 
 ---
 
-## **Контактное лицо**  
-**Гена**   
-**Telegram**: @Genna1248  
+## **Project Prospects**  
+The model will help accelerate and simplify the pricing of complex derivatives, reduce computational costs, and ideally improve pricing accuracy.  
 
-**Саша**   
-**Telegram**: @dolmatovas1  
+---
 
-**Ваня**    
+## **Contact Person**  
+**Vanya Vorobiov**  
 **Telegram**: @v0r0bi0v
