@@ -1,0 +1,4 @@
+.DS_Store
+cache/*
+!cache/.trackfile
+src/__pycache__/*
