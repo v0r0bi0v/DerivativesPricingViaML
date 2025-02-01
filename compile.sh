@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # name of the file
-FILENAME="slides"
+FILENAME="slides_russian"
 OUTPUT_DIR="pdf"
 
 # compile once

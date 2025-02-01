@@ -1,0 +1,181 @@
+\documentclass[10pt]{beamer}
+
+\usepackage{cmap}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{forest}
+\usepackage{adjustbox}
+\usepackage{times}
+\usepackage{tikz}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{snakes,decorations.pathmorphing}
+
+\mode<presentation>{
+    \usetheme{Marburg}
+    \usecolortheme{sidebartab}
+}
+
+\newcommand{\E}{\ensuremath{\mathbb{E}}}
+\newcommand{\D}{\ensuremath{\mathbb{D}}}
+\newcommand{\C}{\ensuremath{\mathbb{C}}}
+\newcommand{\R}{\ensuremath{\mathbb{R}}}
+\newcommand{\Q}{\ensuremath{\mathbb{Q}}}
+
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\green}[1]{\textcolor{green}{#1}}
+\newcommand{\orange}[1]{\textcolor{orange}{#1}}
+\newcommand{\teal}[1]{\textcolor{teal}{#1}}
+\newcommand{\purple}[1]{\textcolor{purple}{#1}}
+
+\renewcommand{\phi}{\varphi}
+\renewcommand{\epsilon}{\varepsilon}
+\renewcommand{\le}{\leqslant}
+\renewcommand{\ge}{\geqslant}
+
+\begin{document}
+    \title[NN-based pricing]{Derivative Pricing with Machine Learning}
+    \author{Risk Block}
+    \date{\today}
+    \institute{Sber}
+
+    \begin{frame}
+        \titlepage
+    \end{frame}
+
+    \section{What is a derivative?}
+    \begin{frame}{What is a derivative?}
+
+        A derivative is a contract where parties exchange (possibly random) cash flows at specific future time points.
+
+        \begin{tikzpicture}[scale=0.9]  % Scaling the entire diagram
+            decoration={snake, amplitude=6mm, segment length=4mm}
+            % Time axis
+            \fill[black] (0,0) circle (0.1); % Bold point at zero
+            \draw[->] (0,0) -- (10,0) node[right] node[below] {Time}; % Time axis line
+
+            % Ticks on the time axis
+            \foreach \x in {0, 2, 4, 6, 8} {
+                \draw (\x,0.1) -- (\x,-0.1) node[below] {\x};
+            }
+            
+            % Wavy arrows
+            \draw[decorate,decoration={snake, amplitude=0.3mm, segment length=4mm, post length=0.5mm},->,thick,blue] (1,1) -- (1,0);
+            \draw[decorate,decoration={snake, amplitude=0mm, segment length=4mm, post length=0.5mm},->,thick,blue] (3.5,1) -- (3.5,0);
+            \draw[decorate,decoration={snake, amplitude=0.3mm, segment length=4mm, post length=0.5mm},->,thick,blue] (7,1) -- (7,0);
+            
+            % Cash flow labels
+            \node[above] at (1,1) {CF$_1$};
+            \node[above] at (3.5,1) {CF$_2$};
+            \node[above] at (7,1) {CF$_3$};
+        \end{tikzpicture}
+
+        Additionally, one of the parties may have the right to terminate the contract under certain conditions at any time.
+    \end{frame}
+
+    \begin{frame}{What is a derivative?}
+        In general,
+        \[
+            price = \E \left( \sum Cashflow_t \mathcal{DF}(t) \right)
+        \]
+        where $\mathcal{DF}$ is the discount factor (possibly stochastic).
+        Thus, pricing can be done using Monte Carlo simulations or binomial models.
+        \begin{itemize}
+            \item This is challenging for derivatives of general form.
+            \item Computational methods are often slow and cannot process an entire bank's portfolio efficiently.
+        \end{itemize}
+    \end{frame}
+
+    \section{Active learning}
+    \begin{frame}{Active learning}
+        Ideally, we aim for the following inference architecture:
+        \begin{itemize}
+            \item The model not only predicts the derivative price but also estimates its confidence in the prediction (similar to uncertainty modeling in Gaussian Process Regression).
+            \item If the model is confident, we use its prediction.
+            \item If uncertainty is high, we compute the derivative price algorithmically and use the result to further train the model.
+        \end{itemize}
+        Next, we present a possible model architecture.
+    \end{frame}
+
+    \section{Linearization approach}
+    \begin{frame}{Linearization approach}
+        We can separate market conditions from the derivative contract itself:
+        \begin{itemize}
+            \item Market conditions: forward curves, volatilities, etc. (easily vectorized).
+            \item Derivative contract: trade description, typically in JSON format.
+        \end{itemize}
+
+        We can define two models:
+        \begin{align*}
+            & \phi: Markets \to \mathcal{M} = \R^n \\
+            & \psi: Derivatives \to \mathcal{D} = \R^n
+        \end{align*}
+        We optimize the models to minimize:
+        \[
+            \int\limits_{Derivatives}\int\limits_{Markets}\left( \phi(m) \cdot \psi^T(d) - price(m, d) \right)^2 dm dd \to 0
+        \]
+
+        \begin{block}{Remark}
+            We assume access to a (not very fast) function that can compute derivative prices algorithmically in any market conditions.
+        \end{block}
+    \end{frame}
+
+    \begin{frame}{Linearization approach}
+        \begin{itemize}
+            \item Further research is needed to ensure that $\phi$ and $\psi$ have meaningful financial interpretations,
+            such as replicating complex derivatives using a linear combination of simpler instruments.
+            \item This architecture is flexible: it can be combined with active learning or recurrent models for derivative embedding.
+        \end{itemize}
+    \end{frame}
+
+    \section{Reinforcement learning}
+    \begin{frame}{Reinforcement learning}
+        In finance, two applications of RL are well-known but underexplored:
+        \begin{itemize}
+            \item Early termination rights lead to an optimal control problem, typically solved via Monte Carlo techniques. RL could offer a more general solution.
+            \item Managing transaction costs can also be framed as an optimal control problem.
+        \end{itemize}
+
+        \begin{block}{Remark}
+            Studying these approaches requires a deeper understanding of financial mathematics.
+        \end{block}
+    \end{frame}
+
+    \section{Team composition}
+    \begin{frame}{Team composition}
+        Expected team size: 3–6 students.
+        
+        Required skills:
+        \begin{itemize}
+            \item Experience with Python and PyTorch.
+            \item Probability theory.
+        \end{itemize}
+
+        Preferred qualifications:
+        \begin{itemize}
+            \item Basic knowledge of financial mathematics.
+            \item Experience with reinforcement learning.
+        \end{itemize}
+
+        \begin{block}{After the project}
+            Opportunities include internships, full-time positions, scholarships, and support for publishing research papers.
+        \end{block}
+    \end{frame}
+
+    \section{Contacts}
+    \begin{frame}{Contacts}
+        \begin{block}{Vanya Vorobyev}
+            Senior Data Scientist
+            
+            \href{mailto:ievorobev@sberbank.ru}{ievorobev@sberbank.ru}, \href{https://t.me/v0r0bi0v}{@v0r0bi0v}
+        \end{block}
+    \end{frame}
+
+\end{document}
