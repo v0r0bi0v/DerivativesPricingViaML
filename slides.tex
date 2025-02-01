@@ -125,11 +125,11 @@
         Можно попробовать сделать 2 модели:
         \begin{align*}
             & \phi: Markets \to \mathcal{M} = \R^n \\
-            & \psi: Derivatives \to \mathcal{L} = \R^n
+            & \psi: Derivatives \to \mathcal{D} = \R^n
         \end{align*}
         Оптимизируем модели 
         \[
-            \int\limits_{Loans}\int\limits_{Markets}\left( \phi(m) \cdot \psi^T(l) - price(m, l) \right)^2 dm dl \to 0
+            \int\limits_{Derivatives}\int\limits_{Markets}\left( \phi(m) \cdot \psi^T(l) - price(m, d) \right)^2 dm dd \to 0
         \]
 
         \begin{block}{Remark}
