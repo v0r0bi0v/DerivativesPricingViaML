@@ -2,7 +2,7 @@
 
 # name of the file
 FILENAME="slides_english"
-OUTPUT_DIR="pdf"
+OUTPUT_DIR="../pdf"
 
 # compile once
 pdflatex -interaction=nonstopmode -output-directory $OUTPUT_DIR $FILENAME.tex
