@@ -27,7 +27,7 @@ The project lies at the intersection of financial mathematics and machine learni
 
 ## **Team Composition & Required Skills**  
 Team: 4–5 students with ML experience.  
-Skills: Proficiency in Python, machine learning libraries (PyTorch), and basic knowledge of financial mathematics.  
+Skills: Python, machine learning libraries (PyTorch), and basic knowledge of financial mathematics.  
 
 ---
 
